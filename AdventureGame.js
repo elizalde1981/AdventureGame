@@ -23,8 +23,8 @@ console.log("Welcome to the Adventure Game");
 console.log("Prepare yourself for an epic journey!");
 
 // Get player name using readline-sync
-playerName=readLine.question("What's your name?");
+playerName=readLine.question("\nWhat's your name?");
 
 //Personalized Welcome
-console.log("Welcome " + playerName);
+console.log("\nWelcome " + playerName);
 console.log("Staring gold: " + playerGold);
